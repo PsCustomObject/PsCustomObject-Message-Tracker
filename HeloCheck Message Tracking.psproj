@@ -1,0 +1,16 @@
+﻿<Project>
+  <Version>2.0</Version>
+  <FileID>e980eb3e-c21a-46d5-81a4-ce1345d6c8c4</FileID>
+  <SourceControl>
+    <SourceControlProject>$/HeloCheck Message Tracking</SourceControlProject>
+    <SourceControlProvider>SOFTWARE\Microsoft\Team Foundation Server MSSCCI Provider</SourceControlProvider>
+  </SourceControl>
+  <ProjectType>0</ProjectType>
+  <Folders />
+  <Files>
+    <File Build="0">Startup.pss</File>
+    <File ReferenceFunction="Show-MainForm_psf" Build="0">MainForm.psf</File>
+    <File ReferenceFunction="Invoke-Globals_ps1" Build="0" Shared="True">Globals.ps1</File>
+    <File ReferenceFunction="Show-About_psf" Build="0">About.psf</File>
+  </Files>
+</Project>
