@@ -1,5 +1,5 @@
-﻿<Project>
-  <Version>2.0</Version>
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt">
+  <Version>2.1</Version>
   <FileID>e980eb3e-c21a-46d5-81a4-ce1345d6c8c4</FileID>
   <SourceControl>
     <SourceControlProject>$/HeloCheck Message Tracking</SourceControlProject>
@@ -9,8 +9,8 @@
   <Folders />
   <Files>
     <File Build="0">Startup.pss</File>
-    <File ReferenceFunction="Show-MainForm_psf" Build="0">MainForm.psf</File>
-    <File ReferenceFunction="Invoke-Globals_ps1" Build="0" Shared="True">Globals.ps1</File>
-    <File ReferenceFunction="Show-About_psf" Build="0">About.psf</File>
+    <File Build="0" ReferenceFunction="Show-MainForm_psf">MainForm.psf</File>
+    <File Build="0" Shared="True" ReferenceFunction="Invoke-Globals_ps1">Globals.ps1</File>
+    <File Build="0" ReferenceFunction="Show-About_psf">About.psf</File>
   </Files>
 </Project>
